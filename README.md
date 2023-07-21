@@ -1,2 +1,3 @@
-# netflix-react
-Mock website of Netflix. // For educational purposes only.
+# Netflix Website using React
+//Mock website of Netflix. 
+// For educational purposes only.
