@@ -9,15 +9,13 @@ import {
   Profile,
   Stream,
 } from './containers';
+import styles from './styles';
 
 const App = () => {
   return (
     <div>
-      <div>
+      <div className={`${styles.transparentBg} ${styles.collageBg}`}>
         <Header />
-      </div>
-
-      <div>
         <Hero />
       </div>
 

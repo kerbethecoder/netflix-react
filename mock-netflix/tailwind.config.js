@@ -1,3 +1,5 @@
+// import netflixBg from './src/assets/index';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -10,6 +12,9 @@ export default {
       },
       fontFamily: {
         lato: ['Lato', 'sans-serif'], //900 & 300
+      },
+      backgroundImage: {
+        collage: 'url(./src/assets/cover.svg)',
       },
     },
   },

@@ -10,7 +10,7 @@ const SelectionMenu = () => {
   };
 
   return (
-    <div className={`${styles.flexCenter} p-4`}>
+    <section className={`${styles.flexCenter} p-4`}>
       <label
         htmlFor="selection"
         className="font-semibold mr-2 block text-white font-lato">
@@ -24,7 +24,7 @@ const SelectionMenu = () => {
         <option value="option1">English</option>
         <option value="option2">Filipino</option>
       </select>
-    </div>
+    </section>
   );
 };
 
