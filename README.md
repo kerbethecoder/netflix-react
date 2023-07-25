@@ -28,5 +28,6 @@ Thank you for your interest in this Netflix Mock Website repository! Please reme
 Happy coding! 🇵🇭 
 
 🚀 kerbethecoder  
-🔥 krby.cnts@gmail.com  
+📱 Kerby Cantos | 0999 367 4781  
+🔥 krby.cnts@gmail.com | https://www.linkedin.com/in/kerby-cantos-0b0738240/  
 📌 July 21, 2023  
