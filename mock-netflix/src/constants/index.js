@@ -74,3 +74,89 @@ export const faqs = [
       'Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.',
   },
 ];
+
+export const footerLinks = [
+  {
+    id: 'footer-links-1',
+    content: [
+      {
+        id: '1',
+        name: 'FAQ',
+      },
+      {
+        id: '2',
+        name: 'Media Center',
+      },
+      {
+        id: '3',
+        name: 'Redeem Gift Cards',
+      },
+      {
+        id: '4',
+        name: 'Terms of Use',
+      },
+      {
+        id: '5',
+        name: 'Corporate Information',
+      },
+      {
+        id: '6',
+        name: 'Legal Notices',
+      },
+    ],
+  },
+  {
+    id: 'footer-links-2',
+    content: [
+      {
+        id: '1',
+        name: 'Help Center',
+      },
+      {
+        id: '2',
+        name: 'Investor Relations',
+      },
+      {
+        id: '3',
+        name: 'Buy Gift Cards',
+      },
+      {
+        id: '4',
+        name: 'Privacy',
+      },
+      {
+        id: '5',
+        name: 'Contact Us',
+      },
+      {
+        id: '6',
+        name: 'Only on Netflix',
+      },
+    ],
+  },
+  {
+    id: 'footer-links-2',
+    content: [
+      {
+        id: '1',
+        name: 'Account',
+      },
+      {
+        id: '2',
+        name: 'Jobs',
+      },
+      {
+        id: '3',
+        name: 'Ways to Watch',
+      },
+      {
+        id: '4',
+        name: 'Cookie Preference',
+      },
+      {
+        id: '5',
+        name: 'Speed Test',
+      },
+    ],
+  },
+];
