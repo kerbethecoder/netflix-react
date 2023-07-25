@@ -1,7 +1,12 @@
-import React from 'react';
+import { GetStarted } from '../components';
+import styles from '../styles';
 
 const Newsletter = () => {
-  return <div>Newsletter</div>;
+  return (
+    <section className={`${styles.bgBlack} ${styles.flexCenter}`}>
+      <GetStarted />
+    </section>
+  );
 };
 
 export default Newsletter;

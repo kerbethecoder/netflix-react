@@ -6,7 +6,7 @@ const Accordion = ({ title, content, isOpen, toggleAccordion }) => {
       <div
         className="flex items-center justify-between p-4 cursor-pointer"
         onClick={toggleAccordion}>
-        <h2 className="text-lg font-semibold">{title}</h2>
+        <h2 className="text-lg font-lato font-black tracking-wider">{title}</h2>
         <span className={`transform ${isOpen ? 'rotate-180' : ''}`}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,9 @@ const Accordion = ({ title, content, isOpen, toggleAccordion }) => {
           isOpen ? 'max-h-96' : 'max-h-0'
         } overflow-hidden`}>
         <div className="p-4 bg-gray-100">
-          <p className="text-gray-700">{content}</p>
+          <p className="text-gray-700 text-lg font-sans font-medium">
+            {content}
+          </p>
         </div>
       </div>
     </div>
