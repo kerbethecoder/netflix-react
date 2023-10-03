@@ -28,5 +28,8 @@ Thank you for your interest in this Netflix Mock Website repository! Please reme
 Happy coding! 🇵🇭 
 
 🚀 kerbethecoder  
-🔥 krby.cnts@gmail.com  
+📱 Kerby Cantos | 0999 367 4781  
+🔥 krby.cnts@gmail.com | https://www.linkedin.com/in/kerby-cantos-0b0738240/  
 📌 July 21, 2023  
+
+![Mock Netflix Website](https://github.com/kerbethecoder/netflix-react/assets/108440191/c80ef074-78c2-4ccb-8e84-5c46b555e032)
