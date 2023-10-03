@@ -5,6 +5,8 @@ Welcome to the Netflix Mock Website repository! This project is a non-commercial
 
 This mock website is not affiliated with Netflix, and it is not an official representation of their service. It is purely a demonstration of web development skills and a fan project created with admiration for the original platform.
 
+![image](https://github.com/kerbethecoder/netflix-react/assets/108440191/446bcf82-0803-428f-b9e5-ed853f21170c)
+
 ## Purpose:
 
 The main goal of this project is to showcase web development techniques, including HTML, CSS, and JavaScript. It is intended for educational purposes to demonstrate how a streaming service website like Netflix might look and function.
