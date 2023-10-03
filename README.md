@@ -1,5 +1,8 @@
 # Netflix Mock Website using React 🧋
+
 Welcome to the Netflix Mock Website repository! This project is a non-commercial, unofficial, and educational homepage to the popular streaming platform Netflix. Before you proceed, please read the following important information.
+
+![Static Badge](https://img.shields.io/badge/success-green?logo=Vercel&label=vercel&labelColor=%231a1a1a)
 
 ## ❗❗ Disclaimer ❗❗
 
@@ -27,8 +30,8 @@ As the creator of this repository, I disclaim any liability for the use of this 
 
 Thank you for your interest in this Netflix Mock Website repository! Please remember that this project is purely educational and non-commercial, and it is not endorsed or associated with Netflix in any way. If you have any questions or concerns, feel free to contact me via the repository's contact information.
 
-🚀 [kerbethecoder](https://github.com/kerbethecoder)     
-📫 krby.cnts@gmail.com    
-📌 July 21, 2023     
- 
+🚀 [kerbethecoder](https://github.com/kerbethecoder)  
+📫 krby.cnts@gmail.com  
+📌 July 21, 2023
+
 Happy coding! :philippines:
