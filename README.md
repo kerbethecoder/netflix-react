@@ -17,7 +17,7 @@ Please note that this mock website includes content such as logos, icons, and im
 
 ## Viewing the Website:
 
-To view the mock website, you can simply access it through the GitHub Pages link provided in this repository. Please keep in mind that this is a static, front-end-only project, and it does not provide actual streaming or functionality similar to the official Netflix platform.
+To view the mock website, you can simply access it through the [GitHub link](https://mock-netflix-react.vercel.app/) provided in this repository. Please keep in mind that this is a static, front-end-only project, and it does not provide actual streaming or functionality similar to the official Netflix platform.
 
 ## Legal Notice:
 
