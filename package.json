@@ -1,7 +1,9 @@
 {
-  "name": "temp-proj",
+  "name": "mock-netflix",
   "private": true,
-  "version": "0.0.0",
+  "description": "A mock website of netflix home page to showcase my skills.",
+  "version": "0.1.0",
+  "author": "Kerby Cantos <krby.cnts@gmail.com>",
   "type": "module",
   "scripts": {
     "dev": "vite",

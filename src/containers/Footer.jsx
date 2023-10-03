@@ -62,7 +62,9 @@ const Footer = () => {
       <h4 className="mt-16 text-xl font-lato font-black underline text-dimWhite hover:text-red-500 cursor-pointer">
         Questions? Contact Us.
       </h4>
-      <p className="font-lato text-base text-dimWhite">Netflix Philippines</p>
+      <p className="font-lato text-base text-dimWhite">
+        Not Netflix Philippines
+      </p>
       <hr className="border w-full border-[rgb(255,255,255,0.2)] mt-16" />
       <h3 className="font-lato text-dimWhite text-sm my-4">
         Mock Website by{' '}
