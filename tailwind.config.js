@@ -14,7 +14,7 @@ export default {
         lato: ['Lato', 'sans-serif'], //900 & 300
       },
       backgroundImage: {
-        collage: 'url(./src/assets/cover.svg)',
+        collage: 'url(src/assets/cover.svg)',
       },
     },
   },
