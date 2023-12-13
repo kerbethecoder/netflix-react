@@ -10,17 +10,14 @@ import {
   Stream,
 } from './containers';
 import Background from './components/Background';
-// import styles from '../styles';
 
 const App = () => {
   return (
     <div>
-      {/* <div className={`${styles.transparentBg} ${styles.collageBg}`}> */}
       <Background>
         <Header />
         <Hero />
       </Background>
-      {/* </div> */}
 
       <div>
         <Platforms />
