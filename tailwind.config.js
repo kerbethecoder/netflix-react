@@ -13,9 +13,6 @@ export default {
       fontFamily: {
         lato: ['Lato', 'sans-serif'], //900 & 300
       },
-      backgroundImage: {
-        collage: 'url(src/assets/cover.svg)',
-      },
     },
   },
   plugins: [],
