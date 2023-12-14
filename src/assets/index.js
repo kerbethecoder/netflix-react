@@ -1,15 +1,8 @@
-import netflix from './netflix-logo.svg';
-import netflixBg from './cover.svg';
-import netflixTv from './netflix-on-tv.gif';
-import netflixPhone from './mobile-netflix.gif';
-import netflixPlatform from './netflix-platform.gif';
-import netflixProfiles from './netflix-profiles.gif';
+import heroBG from '../assets/cover.png';
+import logo from '../assets/netflix-logo.svg';
+import platformImg from '../assets/netflix-on-tv.gif';
+import downloadImg from '../assets/mobile-netflix.gif';
+import streamImg from '../assets/netflix-platform.gif';
+import profileImg from '../assets/netflix-profiles.gif';
 
-export {
-  netflix,
-  netflixBg,
-  netflixTv,
-  netflixPhone,
-  netflixPlatform,
-  netflixProfiles,
-};
+export { heroBG, logo, platformImg, downloadImg, streamImg, profileImg };

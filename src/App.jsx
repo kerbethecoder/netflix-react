@@ -1,25 +1,31 @@
 import {
-  Header,
-  Download,
-  FAQs,
-  Footer,
   Hero,
-  Newsletter,
+  Header,
   Platforms,
-  Profile,
+  Download,
   Stream,
-} from './containers';
-import Background from './components/Background';
+  Profile,
+  FAQs,
+  Newsletter,
+  Footer,
+} from './components';
+import { heroBG } from './assets';
 
 const App = () => {
+  const bgStyle = {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${heroBG})`,
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+  };
+
   return (
-    <div>
-      <Background>
+    <>
+      <div style={bgStyle}>
         <Header />
         <Hero />
-      </Background>
-
-      <div>
+      </div>
+      <div className="darkBG">
         <Platforms />
         <Download />
         <Stream />
@@ -28,7 +34,7 @@ const App = () => {
         <Newsletter />
         <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
