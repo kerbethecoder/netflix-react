@@ -1,10 +1,9 @@
 import { footerLinks } from '../constants';
-import styles from '../styles';
+import { styles } from '../ui';
 
 const Footer = () => {
   return (
-    <section
-      className={`text-white ${styles.bgBlack} ${styles.flexCenter} flex-col px-72 pt-20`}>
+    <section className={`text-white ${styles.flexCenter} flex-col px-72 pt-20`}>
       <div className={`${styles.flexFooter} gap-52`}>
         <div>
           {footerLinks
@@ -68,8 +67,21 @@ const Footer = () => {
       <hr className="border w-full border-[rgb(255,255,255,0.2)] mt-16" />
       <h3 className="font-lato text-dimWhite text-sm my-4">
         Mock Website by{' '}
-        <span className="text-red-500 tracking-wide">@kerbethecoder</span> |
-        krby.cnts@gmail.com
+        <a
+          href="https://kerbethecoder.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-bold hover:text-red-500">
+          @kerbethecoder
+        </a>{' '}
+        |{' '}
+        <a
+          href="mailto:krbycnts@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-red-500">
+          krby.cnts@gmail.com
+        </a>
       </h3>
     </section>
   );

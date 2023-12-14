@@ -1,6 +1,9 @@
-// export { default as SelectionMenu } from './SelectionMenu';
-// export { default as Button } from './Button';
-// export { default as GetStarted } from './GetStarted';
-// export { default as Accordion } from './Accordion';
-
 export { default as Hero } from './Hero';
+export { default as Header } from './Header';
+export { default as Platforms } from './Platforms';
+export { default as Download } from './Download';
+export { default as Stream } from './Stream';
+export { default as Profile } from './Profile';
+export { default as FAQs } from './FAQs';
+export { default as Newsletter } from './Newsletter';
+export { default as Footer } from './Footer';

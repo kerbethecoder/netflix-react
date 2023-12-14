@@ -1,17 +1,12 @@
-import { netflixProfiles } from '../assets';
+import { profileImg } from '../assets';
 import { headings } from '../constants';
-import styles from '../styles';
+import { styles } from '../ui';
 
 const Profile = () => {
   return (
-    <section
-      className={`${styles.bgBlack} ${styles.flexRowBetween} px-64 py-44 gap-16`}>
+    <section className={`${styles.flexBetween} px-64 py-44 gap-16`}>
       <div>
-        <img
-          src={netflixProfiles}
-          alt="netflix_profiles"
-          className="rounded-xl"
-        />
+        <img src={profileImg} alt="netflix_profiles" className="rounded-xl" />
       </div>
 
       <div>

@@ -1,13 +1,12 @@
-import { netflixPhone } from '../assets';
+import { styles } from '../ui';
 import { headings } from '../constants';
-import styles from '../styles';
+import { downloadImg } from '../assets';
 
 const Download = () => {
   return (
-    <section
-      className={`${styles.bgBlack} ${styles.flexRowBetween} px-72 py-32`}>
+    <section className={`${styles.flexBetween} px-72 py-32`}>
       <div>
-        <img src={netflixPhone} alt="netflix_phone" />
+        <img src={downloadImg} alt="netflix_phone" />
       </div>
 
       <div>

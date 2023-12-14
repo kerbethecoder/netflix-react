@@ -1,11 +1,10 @@
+import { styles } from '../ui';
+import { platformImg } from '../assets';
 import { headings } from '../constants';
-import { netflixTv } from '../assets';
-import styles from '../styles';
 
 const Platforms = () => {
   return (
-    <section
-      className={`${styles.bgBlack} ${styles.flexRowBetween} px-72 py-44`}>
+    <section className={`${styles.flexBetween} px-72 py-44`}>
       <div>
         <h1 className={styles.heading}>{headings[1].title}</h1>
         <p className={`${styles.paragraph} pt-8 pr-10`}>
@@ -14,7 +13,7 @@ const Platforms = () => {
       </div>
 
       <div>
-        <img src={netflixTv} alt="netflix_on_tv" className="w-full h-full" />
+        <img src={platformImg} alt="netflix_on_tv" className="w-full h-full" />
       </div>
     </section>
   );

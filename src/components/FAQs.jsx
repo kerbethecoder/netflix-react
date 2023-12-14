@@ -1,8 +1,7 @@
 import { useState } from 'react';
 
-import { Accordion } from '../components';
 import { faqs } from '../constants';
-import styles from '../styles';
+import { styles, Accordion } from '../ui';
 
 const FAQs = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -60,8 +59,7 @@ const FAQs = () => {
   ];
 
   return (
-    <section
-      className={`${styles.bgBlack} ${styles.flexCenter} flex-col px-72 py-44`}>
+    <section className={`${styles.flexCenter} flex-col px-72 py-44`}>
       <h1 className={`${styles.heading}`}>Frequently Asked Questions</h1>
       <div className="container mx-auto p-4 my-10">
         {data.map((item, index) => (
